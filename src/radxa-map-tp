@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Map touch panel to coresponding display
+# Radxa Display 8HD
+xinput --map-to-output 'goodix-ts' DSI-1
+
+# Run original setup script (if any)
+exec "$@"
