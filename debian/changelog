@@ -1,3 +1,9 @@
+radxa-touchscreen-utils (0.2) stable; urgency=medium
+
+  * Add support for Raspberry Pi Touch Display
+
+ -- Excalibur <excalibur@OptiPlex.vamrs.com>  Thu, 09 Mar 2023 13:11:50 +0800
+
 radxa-touchscreen-utils (0.1) stable; urgency=medium
 
   * Initial release
