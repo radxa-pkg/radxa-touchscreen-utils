@@ -10,7 +10,10 @@ fts_ts
 # Map touch panel to DSI
 for i in "${TOUCHPANEL[@]}"
 do
-    echo xinput --map-to-output "$i" DSI-1
+    if xinput --list --name-only "$i"
+    then
+        xinput --map-to-output "$i" DSI-1
+    fi
 done
 
 # Run original setup script (if any)
