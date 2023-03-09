@@ -1,3 +1,10 @@
+radxa-touchscreen-utils (0.3.1) stable; urgency=medium
+
+  * Remove execution bit from autostart file
+  * Test if device is available first
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 09 Mar 2023 19:33:07 +0800
+
 radxa-touchscreen-utils (0.3) stable; urgency=medium
 
   * Add autostart entry to update mapping after user log in
