@@ -1,8 +1,17 @@
-#!/bin/sh
+#!/bin/bash
 
-# Map touch panel to coresponding display
+TOUCHPANEL=(
 # Radxa Display 8HD
-xinput --map-to-output 'goodix-ts' DSI-1
+goodix-ts
+# Raspberry Pi Touch Display
+fts_ts
+)
+
+# Map touch panel to DSI
+for i in "${TOUCHPANEL[@]}"
+do
+    echo xinput --map-to-output "$i" DSI-1
+done
 
 # Run original setup script (if any)
 exec "$@"
