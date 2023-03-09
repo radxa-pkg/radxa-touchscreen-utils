@@ -1,4 +1,6 @@
 src/radxa-map-tp usr/bin
-src/radxa-map-tp_lightdm.conf usr/share/lightdm/lightdm.conf.d
-src/radxa-map-tp_sddm.conf usr/lib/sddm/sddm.conf.d
+src/*_lightdm.conf usr/share/lightdm/lightdm.conf.d
+src/*_sddm.conf usr/lib/sddm/sddm.conf.d
+src/*.autostart usr/share/radxa-map-tp
+src/*.desktop etc/xdg/autostart
 man/*.8 usr/share/man/man8

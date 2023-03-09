@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Update touch panel mapping
+TryExec=radxa-map-tp
+Exec=radxa-map-tp
+StartupNotify=false
+NoDisplay=true
+
+X-GNOME-Autostart-Phase=Application
+X-KDE-autostart-phase=2
