@@ -1,8 +1,14 @@
+radxa-touchscreen-utils (0.3) stable; urgency=medium
+
+  * Add autostart entry to update mapping after user log in
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 09 Mar 2023 14:09:38 +0800
+
 radxa-touchscreen-utils (0.2) stable; urgency=medium
 
   * Add support for Raspberry Pi Touch Display
 
- -- Excalibur <excalibur@OptiPlex.vamrs.com>  Thu, 09 Mar 2023 13:11:50 +0800
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 09 Mar 2023 13:11:50 +0800
 
 radxa-touchscreen-utils (0.1) stable; urgency=medium
 
