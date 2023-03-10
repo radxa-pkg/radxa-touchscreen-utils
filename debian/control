@@ -12,7 +12,8 @@ Package: radxa-touchscreen-utils
 Architecture: all
 Section: misc
 Priority: optional
-Depends: ${misc:Depends},
+Depends: xinput,
+         ${misc:Depends},
 Description: Radxa touchscreen helper
  This package provides helper scripts to provide better
  touchscreen behaviour.
