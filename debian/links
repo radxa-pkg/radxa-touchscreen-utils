@@ -1,0 +1,3 @@
+#!/usr/bin/dh-exec
+
+/usr/share/radxa-touchscreen-utils/radxa-map-tp.autostart /etc/xdg/autostart/radxa-map-tp.desktop
