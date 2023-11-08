@@ -1,4 +1,5 @@
 src/radxa-map-tp usr/bin
+src/radxa-tp-mon usr/bin
 src/*_lightdm.conf usr/share/lightdm/lightdm.conf.d
 src/*_sddm.conf usr/lib/sddm/sddm.conf.d
 src/*.autostart usr/share/radxa-touchscreen-utils

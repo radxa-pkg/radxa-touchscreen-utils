@@ -1,0 +1,9 @@
+#!/bin/bash
+
+while read -r
+do
+    if grep RRScreenChangeNotify &>/dev/null <<< $REPLY
+    then
+        radxa-map-tp
+    fi
+done < <(xev -root)
