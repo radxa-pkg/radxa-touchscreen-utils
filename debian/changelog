@@ -1,3 +1,15 @@
+radxa-touchscreen-utils (0.3.3) jammy; urgency=medium
+
+  [ dependabot[bot] ]
+  * Bump actions/checkout from 3 to 4
+
+  [ ZHANG Yuntian ]
+  * Update CI
+  * Update package definition
+  * Add radxa-tp-mon
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 08 Nov 2023 11:22:39 +0000
+
 radxa-touchscreen-utils (0.3.2) stable; urgency=medium
 
   * Add pkg.conf
