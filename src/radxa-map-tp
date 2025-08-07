@@ -3,6 +3,8 @@
 TOUCHPANEL=(
 # Radxa Display 8HD
 goodix-ts
+"pointer:Goodix Capacitive TouchScreen"
+"keyboard:Goodix Capacitive TouchScreen"
 # Raspberry Pi Touch Display
 fts_ts
 )
