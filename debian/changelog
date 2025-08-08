@@ -1,3 +1,16 @@
+radxa-touchscreen-utils (0.3.5) noble; urgency=medium
+
+  [ dependabot[bot] ]
+  * Bump actions/download-artifact from 3 to 4
+  * Bump actions/upload-artifact from 3 to 4
+  * Bump softprops/action-gh-release from 1 to 2
+  * Bump actions/download-artifact from 4 to 5
+
+  [ Jiali Chen ]
+  * fix: radxa-map-tp: add mainline linux goodix driver device name
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 08 Aug 2025 11:19:16 +0000
+
 radxa-touchscreen-utils (0.3.4) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
